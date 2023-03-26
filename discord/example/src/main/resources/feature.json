@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Example",
+    "id": "example",
+    "version": "v0.1",
+    "mainClass": "jp.cron.cronlib.feature.example.ExampleFeature",
+    "handleActivity": "true"
+  }
+]
