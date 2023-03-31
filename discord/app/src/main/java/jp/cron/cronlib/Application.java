@@ -41,6 +41,7 @@ public class Application {
     }
 
     public void start() {
+        mainConfig.copyDefault();
         mainConfig.start();
 
         if (!featureLoader.checkCanRead())
