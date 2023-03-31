@@ -17,8 +17,12 @@ dependencies {
     implementation("com.google.code.gson:gson:2.10.1")
     implementation("org.yaml:snakeyaml:2.0")
 
-    implementation("org.slf4j:slf4j-api:2.0.7")
-    implementation("org.slf4j:slf4j-simple:2.0.7")
+//    implementation("org.slf4j:slf4j-api:2.0.7")
+//    implementation("org.slf4j:slf4j-simple:2.0.7")
+//    implementation("org.apache.logging.log4j:log4j-slf4j-impl:2.20.0")
+//    implementation("org.apache.logging.log4j:log4j-core:2.20.0")
+    implementation("ch.qos.logback:logback-core:1.2.8")
+    implementation("ch.qos.logback:logback-classic:1.2.8")
 
     implementation("org.json:json:20230227")
     implementation("net.sf.trove4j:trove4j:3.0.3")
